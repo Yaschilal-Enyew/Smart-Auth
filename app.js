@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://smart-auth-frontend-nine.vercel.app/',
+  origin: 'https://smart-auth-frontend-o7eq12mue-yaschilals-projects.vercel.app',
   credentials: true
 }));
 app.use(cookieParser());
